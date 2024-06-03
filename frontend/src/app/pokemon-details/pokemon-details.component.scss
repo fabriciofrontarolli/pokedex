@@ -1,0 +1,22 @@
+.pokemon-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    width: 80%;
+  }
+
+  .information-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    margin-top: 1rem;
+
+    h3 {
+      font-weight: 100;
+      margin-left: 1rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<div class="pokemon-details-container">
+  <div class="pokemon-details-container__button">
+    <button mat-flat-button color="primary" (click)="returnToListing()">
+      Return to Listing
+    </button>
+  </div>
+
+  <div class="pokemon-details-container__content">
+    <div class="information-field">
+      <h2>Name:</h2>
+      <h3>{{ pokemonDetails?.name }}</h3>
+    </div>
+
+    <div class="information-field">
+      <h2>Height:</h2>
+      <h3>{{ pokemonDetails?.height }}</h3>
+    </div>
+
+    <div class="information-field">
+      <h2>Weight:</h2>
+      <h3>{{ pokemonDetails?.weight }}</h3>
+    </div>
+  </div>
+</div>

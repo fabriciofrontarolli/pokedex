@@ -19,7 +19,7 @@ Both projects make use of a Dockerfile, and all the stack is ran using Docker Co
 The project uses docker compose to run the application.
 - Install [Docker Compose](https://docs.docker.com/compose/install/)
 - Install project dependencies
--- Install backend dependencies
+--Install backend dependencies
 ```
 cd backend
 npm install
@@ -31,3 +31,4 @@ npm install
 ```
 
 - Run `docker compose up` to run both frontend angular app and backend nodejs api
+- Open the browser in url `http://localhost:3005/`
